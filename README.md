@@ -1,27 +1,32 @@
-# python-triangle-math
-Triangle Calculator
-This Python project is designed to assist in the analysis and classification of triangles using their coordinates. It performs a range of calculations and provides information about a given triangle:
+# Triangle Calculator
 
-Checking Triangle Validity: Determines if the provided coordinates form a valid triangle.
+## Overview
 
-Side Lengths and Angles: Calculates the lengths of sides AB, BC, and AC, and measures the angles between them.
+The Triangle Calculator is a Python project designed to analyze and classify triangles based on their coordinates in a 2D plane. This program provides a comprehensive set of functions for working with triangles, including:
 
-Triangle Classification: Identifies if the triangle is equilateral, isosceles, scalene, right-angled, obtuse-angled, or acute-angled.
+- Validating whether the given coordinates form a valid triangle.
+- Calculating the lengths of sides AB, BC, and AC, and measuring the angles between them.
+- Classifying the type of triangle (e.g., equilateral, isosceles, scalene, right-angled, obtuse-angled, or acute-angled).
+- Computing the area of the triangle.
+- Determining the lengths of altitudes from vertices A, B, and C.
+- Calculating the lengths of medians starting from points A, B, and C.
+- Identifying the coordinates of the centroid and circumcenter of the triangle.
 
-Area Calculation: Computes the area of the triangle.
+## Usage
 
-Altitudes: Determines the lengths of altitudes originating from vertices A, B, and C.
+The Triangle Calculator allows users to input the coordinates for points A, B, and C, and it performs the calculations to provide detailed information about the triangle.
 
-Medians: Calculates the lengths of medians starting from points A, B, and C.
+## How to Use
 
-Centroid and Circumcenter: Provides the coordinates of the centroid and circumcenter of the triangle.
+1. Run the Python script.
+2. Input coordinates for points A, B, and C in the format [Ax, Ay, Bx, By, Cx, Cy].
+3. The program will display the results, including side lengths, angles, triangle classification, area, altitudes, medians, centroid, and circumcenter.
 
-Usage
-The user inputs coordinates for points A, B, and C, and the program performs the calculations to provide the details mentioned above.
+Feel free to use this project for educational purposes or in practical applications where triangle analysis is required.
 
-How to Use
-Run the Python script.
-Input coordinates for points A, B, and C in the format [Ax, Ay, Bx, By, Cx, Cy].
-The program will display the results, including side lengths, angles, triangle classification, area, altitudes, medians, centroid, and circumcenter.
-Feel free to use this project to understand and analyze triangles with ease, whether for educational purposes or practical applications.
+## Getting Started
+
+1. Clone the repository to your local machine.
+2. Ensure you have Python installed.
+3. Run the `triangle_calculator.py` script.
 
